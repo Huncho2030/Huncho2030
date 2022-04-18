@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>/home</title>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    <section id="body">
+      <img src="images/logo.png" class="logo">
+    <div class="bdclass">
+      <h1>MKU HOME PAGE</h1>
+      <p>Unlocking infinite possibilities</p>
+    </div>
+    <div id="sidenav">
+      <nav>
+		<ul>
+			<li><a href="logout.html">LOGOUT</a></li>
+			<li><a href="distance.html">DISTANCE</a></li>
+			<li><a href="services.html">SERVICES</a></li>
+			<li><a href="testimonials.html">TESTIMONIALS</a></li>
+			<li><a href="meetus.ht">MEET US</a></li>
+		</ul>
+      </nav>
+    </div>
+</section>
+<div id="menubtn">
+  <img src="images/menu.png" id="menu">
+</div>
+<script>
+  var menubtn= document.getElementById ("menubtn")
+  var sidenav= document.getElementById ("sidenav")
+  var menu= document.getElementById ("menu")
+  sidenav.style.right= "-250px";
+  menubtn.onclick= function(){
+    if (sidenav.style.right== "-150px") {
+        sidenav.style.right="0";
+    }
+    else{
+      sidenav.style.right = "-150px";
+    }
+  }
+</script>
+  </body>
+</html>
