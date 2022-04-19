@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+}
+#backg{
+  background-repeat:no-repeat;
+  background-size: 500px;
+background:radial-gradient(rgb(0.5,0,0,0.5),cyan),url(images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+font-family: 'Roboto Mono', monospace;
+}
+.h1{
+  text-align: center;
+  color: #fff;
+font-family: 'Bebas Neue', cursive;
+}
